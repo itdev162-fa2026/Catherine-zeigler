@@ -35,8 +35,8 @@
     },
     "Persistence/1.0.0": {
       "type": "project",
-      "path": "../Persistence/Persistence.csproj",
-      "msbuildProject": "../Persistence/Persistence.csproj"
+      "path": "../persistence/Persistence.csproj",
+      "msbuildProject": "../persistence/Persistence.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -80,8 +80,8 @@
             "C:\\162\\catherine-zeigler\\Domain\\Domain.csproj": {
               "projectPath": "C:\\162\\catherine-zeigler\\Domain\\Domain.csproj"
             },
-            "C:\\162\\catherine-zeigler\\Persistence\\Persistence.csproj": {
-              "projectPath": "C:\\162\\catherine-zeigler\\Persistence\\Persistence.csproj"
+            "C:\\162\\catherine-zeigler\\persistence\\Persistence.csproj": {
+              "projectPath": "C:\\162\\catherine-zeigler\\persistence\\Persistence.csproj"
             }
           }
         }
