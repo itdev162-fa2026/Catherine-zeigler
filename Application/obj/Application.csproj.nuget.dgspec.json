@@ -35,8 +35,8 @@
               "C:\\162\\catherine-zeigler\\Domain\\Domain.csproj": {
                 "projectPath": "C:\\162\\catherine-zeigler\\Domain\\Domain.csproj"
               },
-              "C:\\162\\catherine-zeigler\\Persistence\\Persistence.csproj": {
-                "projectPath": "C:\\162\\catherine-zeigler\\Persistence\\Persistence.csproj"
+              "C:\\162\\catherine-zeigler\\persistence\\Persistence.csproj": {
+                "projectPath": "C:\\162\\catherine-zeigler\\persistence\\Persistence.csproj"
               }
             }
           }
@@ -141,14 +141,14 @@
         }
       }
     },
-    "C:\\162\\catherine-zeigler\\Persistence\\Persistence.csproj": {
+    "C:\\162\\catherine-zeigler\\persistence\\Persistence.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\162\\catherine-zeigler\\Persistence\\Persistence.csproj",
+        "projectUniqueName": "C:\\162\\catherine-zeigler\\persistence\\Persistence.csproj",
         "projectName": "Persistence",
-        "projectPath": "C:\\162\\catherine-zeigler\\Persistence\\Persistence.csproj",
+        "projectPath": "C:\\162\\catherine-zeigler\\persistence\\Persistence.csproj",
         "packagesPath": "C:\\Users\\cathe\\.nuget\\packages\\",
-        "outputPath": "C:\\162\\catherine-zeigler\\Persistence\\obj\\",
+        "outputPath": "C:\\162\\catherine-zeigler\\persistence\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -190,6 +190,22 @@
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[9.0.9, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
