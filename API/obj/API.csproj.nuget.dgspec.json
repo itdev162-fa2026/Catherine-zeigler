@@ -121,8 +121,8 @@
               "C:\\162\\catherine-zeigler\\Domain\\Domain.csproj": {
                 "projectPath": "C:\\162\\catherine-zeigler\\Domain\\Domain.csproj"
               },
-              "C:\\162\\catherine-zeigler\\Persistence\\Persistence.csproj": {
-                "projectPath": "C:\\162\\catherine-zeigler\\Persistence\\Persistence.csproj"
+              "C:\\162\\catherine-zeigler\\persistence\\Persistence.csproj": {
+                "projectPath": "C:\\162\\catherine-zeigler\\persistence\\Persistence.csproj"
               }
             }
           }
@@ -227,14 +227,14 @@
         }
       }
     },
-    "C:\\162\\catherine-zeigler\\Persistence\\Persistence.csproj": {
+    "C:\\162\\catherine-zeigler\\persistence\\Persistence.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\162\\catherine-zeigler\\Persistence\\Persistence.csproj",
+        "projectUniqueName": "C:\\162\\catherine-zeigler\\persistence\\Persistence.csproj",
         "projectName": "Persistence",
-        "projectPath": "C:\\162\\catherine-zeigler\\Persistence\\Persistence.csproj",
+        "projectPath": "C:\\162\\catherine-zeigler\\persistence\\Persistence.csproj",
         "packagesPath": "C:\\Users\\cathe\\.nuget\\packages\\",
-        "outputPath": "C:\\162\\catherine-zeigler\\Persistence\\obj\\",
+        "outputPath": "C:\\162\\catherine-zeigler\\persistence\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
